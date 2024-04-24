@@ -1,0 +1,14 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+  api "com.badlogicgames.gdx-controllers:gdx-controllers-core:$gdxControllersVersion"
+  api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+  api "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+  api "com.badlogicgames.gdx:gdx:$gdxVersion"
+  api project(':shared')
+
+  // imgui
+  api "io.github.spair:imgui-java-app:$imguiVersion"
+  api 'org.json:json:20240303'
+}

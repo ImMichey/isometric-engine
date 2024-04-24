@@ -1,0 +1,15 @@
+iso-tiles-0.png
+size:2048,2048
+repeat:none
+testobj
+bounds:76,76,32,32
+tile_009
+bounds:39,76,32,32
+tile_022
+bounds:2,2,32,32
+tile_026
+bounds:39,39,32,32
+tile_104
+bounds:2,39,32,32
+walkingdummy
+bounds:2,76,32,32
